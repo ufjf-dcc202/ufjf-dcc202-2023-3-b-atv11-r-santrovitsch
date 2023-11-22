@@ -7,7 +7,7 @@ adicionaElementoNaLista("Primeiro");
 adicionaElementoNaLista("Segundo");
 adicionaElementoNaLista("Terceiro");
 
-function adicionaElementoNaLista(){
+function adicionaElementoNaLista(texto){
     const li = document.createElement("li");
     li.textContent = texto;
     olItens.appendChild(li);
