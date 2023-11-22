@@ -5,7 +5,7 @@ const btnAdicionar = document.querySelector("#adicionar");
 const btnLimpar = document.querySelector("#limpar");
 const olItens = document.querySelector("#itens");
 
-atualizarListaOrdenada()
+atualizarListaOrdenada();
 btnAdicionar.addEventListener('click',adicionaItemDaEntrada);
 btnLimpar.addEventListener('click', limparListaOrdenada);
 
@@ -24,7 +24,7 @@ function adicionaItemDaEntrada(){
 function atualizarListaOrdenada(){
     const lista = getLista();
     olItens.innerHTML= "";
-    for(let i=0; i < lista.lenght;i++){
+    for(let i=0; i < lista.length;i++){
         adicionaElementoNaListaOrdenada(lista[i]);
     }
 }
