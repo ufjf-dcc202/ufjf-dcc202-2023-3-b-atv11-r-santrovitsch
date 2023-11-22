@@ -8,9 +8,9 @@ li.textContent = "Primeiro";
 olItens.appendChild(li);
 
 const li2 = document.createElement("li");
-li.textContent = "Segundo";
+li2.textContent = "Segundo";
 olItens.appendChild(li2);
 
 const li3 = document.createElement("li");
-li.textContent = "Terceiro";
+li3.textContent = "Terceiro";
 olItens.appendChild(li3);
